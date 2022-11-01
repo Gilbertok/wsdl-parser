@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+.mvn/wrapper/maven-wrapper.jar
+global-groovy.log
+soapui-errors.log
+wsdl-parser/
+soapui.log
