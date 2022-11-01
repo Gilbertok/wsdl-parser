@@ -4,12 +4,14 @@ import com.fluig.wsdlparser.service.vo.SoapResourceSchemaVO;
 import com.ibm.wsdl.OperationImpl;
 import com.ibm.wsdl.PortTypeImpl;
 import com.ibm.wsdl.xml.WSDLReaderImpl;
+import org.springframework.stereotype.Component;
 
 import javax.wsdl.Definition;
 import javax.wsdl.WSDLException;
 import javax.wsdl.xml.WSDLReader;
 import java.util.List;
 
+@Component
 public class WsdlParser {
 
     private final WSDLReader reader;
